@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #22254b;
+}
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie {
+  background-color: #373b69;
+  margin: 1rem;
+  width: 250px;
+  box-shadow: #373b69;
+  transition: all 0.2s ease-in-out;
+  color: aliceblue;
+}
+.movie:hover {
+  transform: scale(1.1);
+}
+.movie img {
+  max-width: 100%;
+}
+.movie-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie-title,
+.movie-author {
+  text-align: center;
+}
+header {
+  background-color: #373b69;
+  color: #22254b;
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-end;
+}
+.search {
+  font-family: inherit;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border-radius: 50px;
+  border: #22254b;
+  padding: 0.5rem 1.5rem;
+}
